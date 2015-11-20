@@ -19,8 +19,8 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.*;
-import android.view.View;
+import android.widget.*;  //Added widget import for buttons
+import android.view.View;  //Added view import to make listeners work correctly
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -30,7 +30,8 @@ import com.google.android.gms.ads.AdView;
  */
 public class MyActivity extends ActionBarActivity
 {
-
+    //Declares all of the buttons that I created in the layout so that I can set up listeners for them.
+    //Also declares an int.
     private AdView mAdView;
     private Button clearButton;
     private Button oButton;
@@ -52,6 +53,7 @@ public class MyActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
 
+        //Registers the declared buttons with their id's, which were set when the layout was created.
         clearButton = (Button) findViewById(R.id.clearButton);
         oButton = (Button) findViewById(R.id.oButton);
         xButton = (Button) findViewById(R.id.xButton);
@@ -65,6 +67,7 @@ public class MyActivity extends ActionBarActivity
         bottomMiddleButton = (Button) findViewById(R.id.bottomMiddleButton);
         bottomRightButton = (Button) findViewById(R.id.bottomRightButton);
 
+        //calls the setupListeners method
         setupListeners();
 
         // Gets the ad view defined in layout/ad_fragment.xml with ad unit ID set in
@@ -128,9 +131,10 @@ public class MyActivity extends ActionBarActivity
         super.onDestroy();
     }
 
+    //Initializes listeners for all the buttons.
     private void setupListeners()
     {
-
+        //Sets the text of the button based on the value of the ticTacValue int
         topLeftButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -146,7 +150,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         topMiddleButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -162,7 +166,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         topRightButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -178,7 +182,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         middleLeftButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -194,7 +198,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         middleButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -210,7 +214,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         middleRightButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -226,7 +230,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         bottomLeftButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -242,7 +246,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         bottomMiddleButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -258,7 +262,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets the text of the button based on the value of the ticTacValue int
         bottomRightButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -274,7 +278,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Changes the value of the ticTacValue int
         oButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -283,7 +287,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Changes the value of the ticTacValue int
         xButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View currentView)
@@ -292,7 +296,7 @@ public class MyActivity extends ActionBarActivity
             }
 
         });
-
+        //Sets 9 buttons' text to "-"
         clearButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View currentView) {
                 bottomRightButton.setText("-");
@@ -306,14 +310,6 @@ public class MyActivity extends ActionBarActivity
                 middleButton.setText("-");
 
             }
-
         });
-
-
-
-
-
-
     }
-
 }

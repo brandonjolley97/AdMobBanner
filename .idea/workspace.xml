@@ -9,7 +9,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434409dc-7e27-4073-be69-5910cf7f39cf" name="Default" comment="" />
+    <list default="true" id="434409dc-7e27-4073-be69-5910cf7f39cf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="AdMobBanner.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,43 +32,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="35.555557">
-              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+            <state vertical-scroll-proportion="-4.110887">
+              <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4516#4888#0" expanded="true" />
-                <element signature="e#4887#4888#0" expanded="true" />
-                <element signature="e#4935#5311#0" expanded="true" />
-                <element signature="e#5310#5311#0" expanded="true" />
-                <element signature="e#5357#5731#0" expanded="true" />
-                <element signature="e#5730#5731#0" expanded="true" />
-                <element signature="e#5779#6157#0" expanded="true" />
-                <element signature="e#6156#6157#0" expanded="true" />
-                <element signature="e#6201#6571#0" expanded="true" />
-                <element signature="e#6570#6571#0" expanded="true" />
-                <element signature="e#6620#7000#0" expanded="true" />
-                <element signature="e#6999#7000#0" expanded="true" />
-                <element signature="e#7048#7426#0" expanded="true" />
-                <element signature="e#7425#7426#0" expanded="true" />
-                <element signature="e#7476#7858#0" expanded="true" />
-                <element signature="e#7857#7858#0" expanded="true" />
-                <element signature="e#7907#8287#0" expanded="true" />
-                <element signature="e#8286#8287#0" expanded="true" />
-                <element signature="e#8326#8484#0" expanded="true" />
-                <element signature="e#8483#8484#0" expanded="true" />
-                <element signature="e#8523#8681#0" expanded="true" />
-                <element signature="e#8680#8681#0" expanded="true" />
-                <element signature="e#8724#9247#0" expanded="true" />
-                <element signature="e#9246#9247#0" expanded="true" />
+                <element signature="e#5008#5380#0" expanded="true" />
+                <element signature="e#5379#5380#0" expanded="true" />
+                <element signature="e#5506#5882#0" expanded="true" />
+                <element signature="e#5881#5882#0" expanded="true" />
+                <element signature="e#6007#6381#0" expanded="true" />
+                <element signature="e#6380#6381#0" expanded="true" />
+                <element signature="e#6508#6886#0" expanded="true" />
+                <element signature="e#6885#6886#0" expanded="true" />
+                <element signature="e#7009#7379#0" expanded="true" />
+                <element signature="e#7378#7379#0" expanded="true" />
+                <element signature="e#7507#7887#0" expanded="true" />
+                <element signature="e#7886#7887#0" expanded="true" />
+                <element signature="e#8014#8392#0" expanded="true" />
+                <element signature="e#8391#8392#0" expanded="true" />
+                <element signature="e#8521#8903#0" expanded="true" />
+                <element signature="e#8902#8903#0" expanded="true" />
+                <element signature="e#9031#9411#0" expanded="true" />
+                <element signature="e#9410#9411#0" expanded="true" />
+                <element signature="e#9500#9658#0" expanded="true" />
+                <element signature="e#9657#9658#0" expanded="true" />
+                <element signature="e#9747#9905#0" expanded="true" />
+                <element signature="e#9904#9905#0" expanded="true" />
+                <element signature="e#9985#10507#0" expanded="true" />
+                <element signature="e#10506#10507#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_my.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_my.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my.xml">
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -79,6 +82,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1552,12 +1558,12 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
+    <option name="x" value="-2" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="937" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1828,8 +1834,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="23" width="1400" height="937" extended-state="0" />
-    <editor active="false" />
+    <frame x="-2" y="23" width="1400" height="937" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1849,7 +1855,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32886723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1868,40 +1874,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="35.555557">
-          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4516#4888#0" expanded="true" />
-            <element signature="e#4887#4888#0" expanded="true" />
-            <element signature="e#4935#5311#0" expanded="true" />
-            <element signature="e#5310#5311#0" expanded="true" />
-            <element signature="e#5357#5731#0" expanded="true" />
-            <element signature="e#5730#5731#0" expanded="true" />
-            <element signature="e#5779#6157#0" expanded="true" />
-            <element signature="e#6156#6157#0" expanded="true" />
-            <element signature="e#6201#6571#0" expanded="true" />
-            <element signature="e#6570#6571#0" expanded="true" />
-            <element signature="e#6620#7000#0" expanded="true" />
-            <element signature="e#6999#7000#0" expanded="true" />
-            <element signature="e#7048#7426#0" expanded="true" />
-            <element signature="e#7425#7426#0" expanded="true" />
-            <element signature="e#7476#7858#0" expanded="true" />
-            <element signature="e#7857#7858#0" expanded="true" />
-            <element signature="e#7907#8287#0" expanded="true" />
-            <element signature="e#8286#8287#0" expanded="true" />
-            <element signature="e#8326#8484#0" expanded="true" />
-            <element signature="e#8483#8484#0" expanded="true" />
-            <element signature="e#8523#8681#0" expanded="true" />
-            <element signature="e#8680#8681#0" expanded="true" />
-            <element signature="e#8724#9247#0" expanded="true" />
-            <element signature="e#9246#9247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1911,6 +1883,40 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.110887">
+          <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5008#5380#0" expanded="true" />
+            <element signature="e#5379#5380#0" expanded="true" />
+            <element signature="e#5506#5882#0" expanded="true" />
+            <element signature="e#5881#5882#0" expanded="true" />
+            <element signature="e#6007#6381#0" expanded="true" />
+            <element signature="e#6380#6381#0" expanded="true" />
+            <element signature="e#6508#6886#0" expanded="true" />
+            <element signature="e#6885#6886#0" expanded="true" />
+            <element signature="e#7009#7379#0" expanded="true" />
+            <element signature="e#7378#7379#0" expanded="true" />
+            <element signature="e#7507#7887#0" expanded="true" />
+            <element signature="e#7886#7887#0" expanded="true" />
+            <element signature="e#8014#8392#0" expanded="true" />
+            <element signature="e#8391#8392#0" expanded="true" />
+            <element signature="e#8521#8903#0" expanded="true" />
+            <element signature="e#8902#8903#0" expanded="true" />
+            <element signature="e#9031#9411#0" expanded="true" />
+            <element signature="e#9410#9411#0" expanded="true" />
+            <element signature="e#9500#9658#0" expanded="true" />
+            <element signature="e#9657#9658#0" expanded="true" />
+            <element signature="e#9747#9905#0" expanded="true" />
+            <element signature="e#9904#9905#0" expanded="true" />
+            <element signature="e#9985#10507#0" expanded="true" />
+            <element signature="e#10506#10507#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
